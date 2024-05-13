@@ -7,7 +7,7 @@ for(let i=0;i<6;i++){
     if(numUtente % 2 == 1){
         arrayVuoto.push(numUtente);
     }else{
-        console.log('even number detected');
+        console.log('even number detected: '+numUtente);
     }
     
 }
