@@ -4,9 +4,12 @@ let numeriDispari = [];
 let numeri5 = [];
 
 for(let i=0; i < arr.length; i++){
-    if(arr[i] % 5 === 0){
+    if(arr[i] % 5 == 0){
+        numeri5.push(arr[i]);
         document.getElementById("giallo").textContent = "Numeri multipli di 5: " + numeri5.join(", ");
     }
+
+
     if(arr[i] % 2 === 0){
         numeriPari.push(arr[i]);
         document.getElementById("rosso").textContent = "Numeri dispari: " + numeriDispari.join(", ");
